@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="telegrambots_3_1">
+    <archive path="/home/brimill/Development/Paulette/lib/telegrambots_3_1.jar" />
+  </library>
+</eclipse-userlibraries>
+
