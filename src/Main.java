@@ -9,6 +9,7 @@ public class Main {
 
     public static void main (String[] args){
         ApiContextInitializer.init();
+        initializeServer();
         registerBots();
     }
 
@@ -17,8 +18,9 @@ public class Main {
         if(new File("config.properties").isFile()){
             System.out.println("Welcome Back");
         }else{
-            System.out.println("Created config.properties");
             PropsHandler.createProperties("", false);
+            System.out.println("Created config.properties.... Please enter BotToken to connect to Telegram");
+            System.exit(0);
         }
     }
 
